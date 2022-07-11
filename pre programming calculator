@@ -1,0 +1,51 @@
+class  P8
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("inter two number");
+
+  int x =5;
+  int y = 7;
+    {
+  System.out.println ("press 1 for addtion ");
+  System.out.println ("press 2 for substraction ");
+  System.out.println ("press 3 for multiplication ");
+  System.out.println ("press 4 for division ");
+
+     }
+     
+int n = 3;
+switch (n)
+
+{
+
+case 1 :  System.out.println ("addtion ");
+   if (n == 1 )
+   {
+System.out.println ( (x+y));
+   }
+ break;
+
+case 2:  System.out.println ("substraction");
+   if (n == 2)
+   {
+System.out.println ( (x-y));
+   }
+ break;
+case 3: System.out.println ("multiplication");
+   if (n == 3)
+   {
+System.out.println ( (x*y));
+   }
+ break;
+case 4:  System.out.println ("division");
+   if (n == 4)
+   {
+System.out.println ( ( x/y));
+   }
+ break;
+
+       }
+
+	  }
+}
